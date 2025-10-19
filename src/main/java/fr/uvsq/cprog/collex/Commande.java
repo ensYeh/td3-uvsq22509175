@@ -5,8 +5,8 @@ package fr.uvsq.cprog.collex;
  * Chaque commande que l'utilisateur peut exécuter implémentera cette interface.
  */
 public interface Commande {
-    /**
-     * Exécute la commande.
-     */
-    void execute();
+  /**
+   * Exécute la commande.
+   */
+  void execute();
 }

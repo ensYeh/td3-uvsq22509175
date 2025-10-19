@@ -5,13 +5,16 @@ package fr.uvsq.cprog.collex;
  */
 public class QuitterCommande implements Commande {
 
-    public QuitterCommande() {
-        // Constructeur vide
-    }
+  /**
+   * Constructeur de la commande pour quitter.
+   */
+  public QuitterCommande() {
+    // Constructeur vide
+  }
 
-    @Override
-    public void execute() {
-        System.out.println("Au revoir !");
-        System.exit(0);
-    }
+  @Override
+  public void execute() {
+    System.out.println("Au revoir !");
+    System.exit(0);
+  }
 }
